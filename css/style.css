@@ -1,0 +1,270 @@
+html{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image:url("House.jpg");
+  background-size: 100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position:top;
+  display: flex;
+  flex-direction: column;
+  font-family:'Basic', sans-serif;
+
+}
+body{
+  width: 100%;
+
+  margin: 0 auto;
+}
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+}
+header{
+  background-color:#273642;
+  width: 100%;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+  width: 30%;
+
+}
+
+nav ul{
+
+}
+.part1{
+  background-color: rgba(39,54,66,0.8);
+  height: 716px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+.button1{
+  color: #32AAFF;
+  background-color: inherit;
+  padding: 15px 60px;
+  border-radius:15px;
+  text-transform: uppercase;
+  border-color:#32AAFF;
+  border-style:solid;
+  margin-top: 30px;
+}
+.text1 h1{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.text1 h4{
+  margin-top: 0;
+}
+.part2{
+  width: 100%;
+  text-align: center;
+  background-color:#32AAFF;
+  height: 200px;
+}
+.part2 p,h2{
+  opacity: 0.2;
+  margin-top: 35px;===
+}
+.part2 h2{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.logo{
+  width: 100%;
+  margin-top:0;
+
+  background-color: #F0F0F0;
+}
+.logo ol{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  text-transform: capitalize;
+}
+.logo ol li h4,p{
+  margin: 0 0 0 0;
+  font-size: 20px;
+  opacity: 0.3;
+}
+#button2{
+  margin-top: 30px;
+  padding:9px 35px;
+  border-radius: 15px;
+  background-color: inherit;
+  text-transform: uppercase;
+  color: #32AAFF;
+  border-color: #32AAFF;
+  border-style: solid;
+}
+.article{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 470px;
+  background-color: #FFFFFF;
+}
+.Investement p{
+  width: 69%;
+  font-size: 15px;
+}
+.Investement h3,h5{
+  margin:2px;
+  font-weight: bold;
+}
+.Investement h3{
+  font-size: 25px;
+}
+.left{
+  margin-left:150px;
+
+}
+img{
+  width:75%;
+
+}
+.right{
+  height: 243px;
+  margin-bottom:70px;
+}
+#p{
+  color:#32AAFF;
+  font-size:20px;
+  text-decoration: underline;
+}
+.part4{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333333;
+  color: #FFFFFF;
+  font-weight:100;
+}
+.part4 h1{
+  opacity: 0.7;
+}
+#input{
+  display:block;
+  text-align:left;
+
+}
+form button{
+  padding: 4px 124px;
+  margin-top:10px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  color:#FFFFFF;
+  background: #32AAFF;
+  border-style: solid;
+  font-weight: bold;
+}
+input{
+
+  margin-top:3px;
+  border-radius: 1px;
+
+}
+form{
+  background-color:#52524F;
+  padding-left:3px;
+  padding-bottom: 4px;
+  padding-right: 1px;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.part5{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  height:500px;
+  text-align:left;
+  background-image:url("House2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+
+
+
+}
+.background{
+  background-color: rgba(50,170,255, 0.8);
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+
+}
+.background h4{
+  font-size:16px;
+  width: 50%;
+  opacity: 0.7;
+}
+.part5 h4{
+  margin-top: 160px;
+  font-size: 15px;
+}
+.background p{
+  width: 50%;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.part6{
+  height: 300px;
+  width: 100%;
+}
+.textdown{
+  width: 50%;
+  display:block;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-right:190px;
+}
+.textdown h4{
+  margin: 0 0 0 0;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.textdown p{
+  font-size: 10px;
+  width: 50%;
+}
+#downbutton{
+  padding: 8px 30px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  background: #32AAFF;
+  border-radius: 6px;
+  font-size: 12px;
+  border-style: solid;
+  font-weight: bold;
+}
+footer{
+  background-color:#333333;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
